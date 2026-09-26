@@ -230,7 +230,7 @@ Comprobaciones exitosas:
 - Rechazo efectivo de precio negativo, cliente inexistente, fecha nula y clave de pedido duplicada.
 - Segunda ejecución de estructura bloqueada sin alterar los 390 pedidos existentes.
 
-**Límite de la prueba:** no se abrió pgAdmin/DBeaver en la PC de la alumna ni se verificó un servidor nativo local. La creación de `capstone_project` y su conexión son pasos de instalación documentados; el motor embebido usado para la prueba no valida ese flujo de administración. La compatibilidad se fija en PostgreSQL 16+ por `pg_input_is_valid`.
+**Límite de la prueba:** no se ejecutaron los scripts en pgAdmin/DBeaver ni se verificó un servidor nativo local. La creación de `capstone_project` y su conexión son pasos de instalación documentados; el motor embebido usado para la prueba no valida ese flujo de administración. La compatibilidad se fija en PostgreSQL 16+ por `pg_input_is_valid`.
 
 ## Correspondencia con la evaluación
 
@@ -250,12 +250,12 @@ La entrega solicita la URL de un **repositorio público** de GitHub, GitLab o Bi
 
 Antes de enviar, verificar que el repositorio abra sin iniciar sesión y que se vean los tres archivos. La plataforma indicaba **dos intentos**, ninguno utilizado, y vencimiento **30/09/2026 a las 16:59** al revisar la consigna. Verificar la hora mostrada por la plataforma al entregar.
 
-Estado de este paquete: código y documentación preparados y probados. La publicación del repositorio y el envío a Ticher no forman parte de la validación técnica anterior.
+Estado: código y documentación publicados en este repositorio. El envío del enlace a Ticher es un paso separado.
 
-## Fuentes y asistencia
+## Fuentes
 
-- Coderhouse, SQL (diplomatura): unidades escritas de los módulos 0–6, siete pre-entregas y rúbrica/consigna Capstone, consultadas con acceso de la alumna el 26/09/2026.
+- Coderhouse, SQL (diplomatura): unidades escritas de los módulos 0–6, siete pre-entregas y rúbrica/consigna Capstone, consultadas el 26/09/2026.
 - [Documentación oficial de restricciones de PostgreSQL](https://www.postgresql.org/docs/18/ddl-constraints.html).
 - [PGlite: motor PostgreSQL en WebAssembly](https://pglite.dev/docs/about).
 
-Proyecto preparado con asistencia de IA para diseño, redacción y validación. La alumna debe revisar, comprender y adaptar la entrega a las reglas de asistencia de su institución. Las interpretaciones pertenecen exclusivamente al dataset de demostración.
+Las interpretaciones pertenecen exclusivamente al dataset de demostración.
